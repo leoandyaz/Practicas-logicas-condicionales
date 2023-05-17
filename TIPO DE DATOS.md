@@ -1,30 +1,31 @@
-# NUMERICOS. 
+## NUMERICOS. 
 
-int 
-float
+* int
+* float
 
-# ALFANUMERICOS.
+## ALFANUMERICOS.
 
-char 
-str
+* char 
+* str
 
-# LOGICOS.
+## LOGICOS.
 
-true 
-false
+* true 
+* false
 
-# METADATOS.
+## METADATOS.
 
-datos de los datos
+* datos de los datos
  
- ¿ Los datos se almacenan en VARIABLES ?
+# Los datos se almacenan en VARIABLES 
  
  var = contenido
  
-NUMERICA        edad=45 precio=15.89
-ALFANUMERICA    nombre = 'Andres' 
-LOGICAS         i=true
-USO
+* NUMERICA        edad=45 precio=15.89
+* ALFANUMERICA    nombre = 'Andres' 
+* LOGICAS         i=true
+
+ ## USO
 -Trabajo        sueldo=154-654  
 -Acumuladora    sueldo=salario_diario-ISR
--contador       i = i-1
+-Contador       i = i-1
