@@ -17,8 +17,14 @@ false
 
 datos de los datos
  
- Los datos se almacenan en VARIABLES
+ ¿ Los datos se almacenan en VARIABLES ?
  
- var
+ var = contenido
  
- 
+NUMERICA        edad=45 precio=15.89
+ALFANUMERICA    nombre = 'Andres' 
+LOGICAS         i=true
+USO
+-Trabajo        sueldo=154-654  
+-Acumuladora    sueldo=salario_diario-ISR
+-contador       i = i-1
