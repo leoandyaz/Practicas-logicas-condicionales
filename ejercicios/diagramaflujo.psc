@@ -13,12 +13,23 @@ Algoritmo diagramaflujo
 	escribir " Escribe tu nombre" 
 	leer nombre
 	
-	escribir nombre, " Adivina el numero secreto"
-	Leer  numero_usuario
-	
-	resultado<- numero_secreto == numero_usuario
-	
-	escribir "El resultado de tu intento ", nombre, " es ", resultado
+	Si Longitud(nombre) > 13 Entonces
+		escribir "Formato de nombre incorrecto"
+	SiNo
+		escribir nombre, " Adivina el numero secreto"
+	    Leer  numero_usuario
+		
+		Si numero_usuario > 0 y numero_usuario < 100 Entonces
+			Si numero_usuario== numero_secreto Entonces
+				Escribir "Ahhhh Prro!!!... le atinaste"
+			SiNo
+			escribir "El resultado de tu intento ", nombre, " es incorrecto, el numero es:", numero_secreto
+		     Fin Si
+		SiNo
+			escribir "SOLO PUEDEN SER NUMERO DEL 1 AL 100"
+		Fin Si
+	Fin Si
+
 	
 FinAlgoritmo
 
