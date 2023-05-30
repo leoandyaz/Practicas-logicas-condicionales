@@ -11,8 +11,8 @@ Algoritmo ejercicio_SUITCH
 	
 	Segun  recom hacer
 		1 :
-			Escribir "Has elegido la opción de libros, tengo dos recomendaciones "
-			Escribir " 1 :Ciencia ficción" 
+			Escribir "Has elegido la opciÃ³n de libros, tengo dos recomendaciones "
+			Escribir " 1 :Ciencia ficciÃ³n" 
 			Escribir " 2 :Novela historica" 
 			Escribir " 3 :Triller" 
 			Leer recom
@@ -41,3 +41,4 @@ Algoritmo ejercicio_SUITCH
 	FinSegun
 	
 FinAlgoritmo
+
